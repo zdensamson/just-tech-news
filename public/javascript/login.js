@@ -43,7 +43,7 @@ async function loginFormHandler(event) {
   
       if (response.ok) {
           // this piece of code is moving the user from the login page to the homepage
-        document.location.replace('/');
+        document.location.replace('/dashboard');
       } else {
         alert(response.statusText);
       }
